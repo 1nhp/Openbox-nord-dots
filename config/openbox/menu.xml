@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="https://openbox.org/"
+ xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://openbox.org/">
+  <menu id="root-menu" label="Applications">
+    <item label="File Manager" icon="/home/user/.cache/obmenu-generator/icons/bb9c061d14f9403a7ea6021cec4d6960.png"><action name="Execute"><command><![CDATA[xdg-open .]]></command></action></item>
+    <item label="Terminal" icon="/home/user/.cache/obmenu-generator/icons/e6787497010b317b7b86c3b5f910845c.png"><action name="Execute"><command><![CDATA[xterm]]></command></action></item>
+    <item label="Web Browser" icon="/home/user/.cache/obmenu-generator/icons/1a0a52ecc071fa7fe0c1372423a7e4f6.png"><action name="Execute"><command><![CDATA[xdg-open http://]]></command></action></item>
+    <item label="Run command" icon="/home/user/.cache/obmenu-generator/icons/27d5a2fea658d9b97d06c48291b4cb04.png"><action name="Execute"><command><![CDATA[gmrun]]></command></action></item>
+  <separator label="Categories"/>
+  <menu id="0.204060300792666" icon="/home/user/.cache/obmenu-generator/icons/a2d7660ff29abfa1199f30ce200acfc5.png" label="Accessories">
+    <item label="File Manager" icon="/home/user/.cache/obmenu-generator/icons/bb9c061d14f9403a7ea6021cec4d6960.png"><action name="Execute"><command><![CDATA[exo-open --launch FileManager]]></command></action></item>
+    <item label="Font Manager" icon="/home/user/.cache/obmenu-generator/icons/6d9faada49b3e9c228937222e363b592.png"><action name="Execute"><command><![CDATA[font-manager]]></command></action></item>
+    <item label="Font Viewer" icon="/home/user/.cache/obmenu-generator/icons/6d9faada49b3e9c228937222e363b592.png"><action name="Execute"><command><![CDATA[/usr/lib/font-manager/font-viewer]]></command></action></item>
+    <item label="Mousepad" icon="/home/user/.cache/obmenu-generator/icons/50cd744e4347f54e0e7b1c88b5436e03.png"><action name="Execute"><command><![CDATA[mousepad]]></command></action></item>
+    <item label="Plank" icon="/home/user/.cache/obmenu-generator/icons/7d01db6c4a4663ba2720a9e57f894c65.png"><action name="Execute"><command><![CDATA[plank]]></command></action></item>
+    <item label="Screenshot" icon="/home/user/.cache/obmenu-generator/icons/a438736948c2e7f22e5ad160afcfd6e3.png"><action name="Execute"><command><![CDATA[xfce4-screenshooter]]></command></action></item>
+    <item label="Terminal Emulator" icon="/home/user/.cache/obmenu-generator/icons/e6787497010b317b7b86c3b5f910845c.png"><action name="Execute"><command><![CDATA[exo-open --launch TerminalEmulator]]></command></action></item>
+    <item label="Xarchiver" icon="/home/user/.cache/obmenu-generator/icons/80cc4ac51f8a9f5abd610d333b09e9b5.png"><action name="Execute"><command><![CDATA[xarchiver]]></command></action></item>
+  </menu>
+  <menu id="0.761181338547857" icon="/home/user/.cache/obmenu-generator/icons/074148cdd5709ed7d38edb2d738a1d20.png" label="Games">
+    <item label="Dolphin Emulator" icon="/home/user/.cache/obmenu-generator/icons/cc7b1271115cd5066c74c709ec5a6230.png"><action name="Execute"><command><![CDATA[env QT_QPA_PLATFORM=xcb dolphin-emu]]></command></action></item>
+    <item label="melonDS" icon="/home/user/.cache/obmenu-generator/icons/ca8f07385f5d8d093859380eb332a0c1.png"><action name="Execute"><command><![CDATA[melonDS]]></command></action></item>
+    <item label="mGBA" icon="/home/user/.cache/obmenu-generator/icons/d35dd08899dba2dd93843d856bee145f.png"><action name="Execute"><command><![CDATA[mgba-qt]]></command></action></item>
+    <item label="PPSSPP (Qt)" icon="/home/user/.cache/obmenu-generator/icons/8fb635c5fc526ee01d0cee711b01cf37.png"><action name="Execute"><command><![CDATA[PPSSPPQt]]></command></action></item>
+    <item label="PPSSPP (SDL)" icon="/home/user/.cache/obmenu-generator/icons/8fb635c5fc526ee01d0cee711b01cf37.png"><action name="Execute"><command><![CDATA[PPSSPPSDL]]></command></action></item>
+  </menu>
+  <menu id="0.897661732315225" icon="/home/user/.cache/obmenu-generator/icons/ed0a7be58760f00941f487222a06bb69.png" label="Multimedia">
+    <item label="OBS Studio" icon="/home/user/.cache/obmenu-generator/icons/f3143ee9ebfc42d3ca71ec057d78b983.png"><action name="Execute"><command><![CDATA[obs]]></command></action></item>
+    <item label="VLC media player" icon="/home/user/.cache/obmenu-generator/icons/00187c4ee95634375cb066e848269dc3.png"><action name="Execute"><command><![CDATA[/usr/bin/vlc --started-from-file]]></command></action></item>
+    <item label="Volume Control" icon="/home/user/.cache/obmenu-generator/icons/dde52c838792a2256e79226a48d6184e.png"><action name="Execute"><command><![CDATA[pavucontrol]]></command></action></item>
+  </menu>
+  <menu id="0.296165402137326" icon="/home/user/.cache/obmenu-generator/icons/34cbc03ca16afc4b339ba4e30c74d2d5.png" label="Network">
+    <item label="Discord" icon="/home/user/.cache/obmenu-generator/icons/4ec5ab0a8b782e285e7af031b6a622e3.png"><action name="Execute"><command><![CDATA[/usr/bin/perl -e 'chdir($ARGV[0]) && exec($ARGV[1])' \/usr\/bin \/usr\/bin\/discord]]></command></action></item>
+    <item label="Firefox" icon="/home/user/.cache/obmenu-generator/icons/ac0b6aad41f9d4cb358cfe21205a3b86.png"><action name="Execute"><command><![CDATA[/usr/lib/firefox/firefox]]></command></action></item>
+    <item label="Mail Reader" icon="/home/user/.cache/obmenu-generator/icons/df8645dc559d05bfb6d9b53dc7024175.png"><action name="Execute"><command><![CDATA[exo-open --launch MailReader]]></command></action></item>
+    <item label="Web Browser" icon="/home/user/.cache/obmenu-generator/icons/b0e704cbdb35ada50b2616993cc72474.png"><action name="Execute"><command><![CDATA[exo-open --launch WebBrowser]]></command></action></item>
+  </menu>
+  <menu id="0.432350077561825" icon="/home/user/.cache/obmenu-generator/icons/a2d7660ff29abfa1199f30ce200acfc5.png" label="Settings">
+    <item label="Accessibility" icon="/home/user/.cache/obmenu-generator/icons/3c23a8607a6cd926d05d89cb2c32455d.png"><action name="Execute"><command><![CDATA[xfce4-accessibility-settings]]></command></action></item>
+    <item label="Appearance" icon="/home/user/.cache/obmenu-generator/icons/f26b383db87b48bd0cda545ef713dd5b.png"><action name="Execute"><command><![CDATA[xfce4-appearance-settings]]></command></action></item>
+    <item label="Color Profiles" icon="/home/user/.cache/obmenu-generator/icons/5aa25232512330bdff00c0392eea2e8a.png"><action name="Execute"><command><![CDATA[xfce4-color-settings]]></command></action></item>
+    <item label="Customize Look and Feel" icon="/home/user/.cache/obmenu-generator/icons/f26b383db87b48bd0cda545ef713dd5b.png"><action name="Execute"><command><![CDATA[lxappearance]]></command></action></item>
+    <item label="Default Applications" icon="/home/user/.cache/obmenu-generator/icons/9c8dbf0f035978791b29f6339df8d021.png"><action name="Execute"><command><![CDATA[xfce4-mime-settings]]></command></action></item>
+    <item label="Display" icon="/home/user/.cache/obmenu-generator/icons/5a3fa6f61b4327438f070b68255412e6.png"><action name="Execute"><command><![CDATA[xfce4-display-settings]]></command></action></item>
+    <item label="Keyboard" icon="/home/user/.cache/obmenu-generator/icons/8bb6d9d2c7276333e0bba90e41e09d41.png"><action name="Execute"><command><![CDATA[xfce4-keyboard-settings]]></command></action></item>
+    <item label="Mouse and Touchpad" icon="/home/user/.cache/obmenu-generator/icons/d6c9d7b05b664ad5f8ae5d261968cde3.png"><action name="Execute"><command><![CDATA[xfce4-mouse-settings]]></command></action></item>
+    <item label="Openbox Configuration Manager" icon="/home/user/.cache/obmenu-generator/icons/61f3de6fd06f9847e869878302ba1980.png"><action name="Execute"><command><![CDATA[obconf]]></command></action></item>
+    <item label="Panel" icon="/home/user/.cache/obmenu-generator/icons/20b67ec9eed9a20688e1e86ac5f6d1ad.png"><action name="Execute"><command><![CDATA[xfce4-panel --preferences]]></command></action></item>
+    <item label="Settings Editor" icon="/home/user/.cache/obmenu-generator/icons/369c0c0aa5db447c5c1e9e9aac3aa41e.png"><action name="Execute"><command><![CDATA[xfce4-settings-editor]]></command></action></item>
+    <item label="Settings Manager" icon="/home/user/.cache/obmenu-generator/icons/92065c696b9adb74e2a3a15f9f152a44.png"><action name="Execute"><command><![CDATA[xfce4-settings-manager]]></command></action></item>
+    <item label="Tint2 Settings" icon="/home/user/.cache/obmenu-generator/icons/8400f04c7b86f1cfb5460d9aedf377c6.png"><action name="Execute"><command><![CDATA[tint2conf]]></command></action></item>
+    <item label="Volume Control" icon="/home/user/.cache/obmenu-generator/icons/dde52c838792a2256e79226a48d6184e.png"><action name="Execute"><command><![CDATA[pavucontrol]]></command></action></item>
+  </menu>
+  <menu id="0.22891436515782" icon="/home/user/.cache/obmenu-generator/icons/e838a5312b66cf0a2e63b37bf6026996.png" label="System">
+    <item label="Htop" icon="/home/user/.cache/obmenu-generator/icons/c859f02d0c8cefff1dea1475d9d6a287.png"><action name="Execute"><command><![CDATA[xterm -e 'htop']]></command></action></item>
+    <item label="Thunar File Manager" icon="/home/user/.cache/obmenu-generator/icons/79dbb46165e0b447b965b67bc2011f58.png"><action name="Execute"><command><![CDATA[thunar]]></command></action></item>
+    <item label="Tint2" icon="/home/user/.cache/obmenu-generator/icons/f869afefec5429f7b15c8421d18c3701.png"><action name="Execute"><command><![CDATA[tint2]]></command></action></item>
+    <item label="XTerm" icon="/home/user/.cache/obmenu-generator/icons/7c9f428f66b98fc4cd571182f645138b.png"><action name="Execute"><command><![CDATA[xterm]]></command></action></item>
+  </menu>
+  <separator/>
+  <menu id="0.675484934259966" icon="/home/user/.cache/obmenu-generator/icons/4e39c3b5d04e60d710bab70d1ffacb21.png" label="Advanced Settings">
+    <item label="Conky RC" icon="/home/user/.cache/obmenu-generator/icons/d4cdf1ba54e8698ade04be0a1ba517c5.png"><action name="Execute"><command><![CDATA[geany ~/.conkyrc]]></command></action></item>
+    <item label="Tint2 Panel" icon="/home/user/.cache/obmenu-generator/icons/d4cdf1ba54e8698ade04be0a1ba517c5.png"><action name="Execute"><command><![CDATA[geany ~/.config/tint2/tint2rc]]></command></action></item>
+  <menu id="0.746110545279485" icon="/home/user/.cache/obmenu-generator/icons/50cd744e4347f54e0e7b1c88b5436e03.png" label="Obmenu-Generator">
+    <item label="Menu Schema" icon="/home/user/.cache/obmenu-generator/icons/d4cdf1ba54e8698ade04be0a1ba517c5.png"><action name="Execute"><command><![CDATA[geany ~/.config/obmenu-generator/schema.pl]]></command></action></item>
+    <item label="Menu Config" icon="/home/user/.cache/obmenu-generator/icons/d4cdf1ba54e8698ade04be0a1ba517c5.png"><action name="Execute"><command><![CDATA[geany ~/.config/obmenu-generator/config.pl]]></command></action></item>
+  <separator/>
+    <item label="Generate a static menu" icon="/home/user/.cache/obmenu-generator/icons/50cd744e4347f54e0e7b1c88b5436e03.png"><action name="Execute"><command><![CDATA[obmenu-generator -s -c]]></command></action></item>
+    <item label="Generate a static menu with icons" icon="/home/user/.cache/obmenu-generator/icons/50cd744e4347f54e0e7b1c88b5436e03.png"><action name="Execute"><command><![CDATA[obmenu-generator -s -i -c]]></command></action></item>
+  <separator/>
+    <item label="Generate a dynamic menu" icon="/home/user/.cache/obmenu-generator/icons/50cd744e4347f54e0e7b1c88b5436e03.png"><action name="Execute"><command><![CDATA[obmenu-generator -p]]></command></action></item>
+    <item label="Generate a dynamic menu with icons" icon="/home/user/.cache/obmenu-generator/icons/50cd744e4347f54e0e7b1c88b5436e03.png"><action name="Execute"><command><![CDATA[obmenu-generator -p -i]]></command></action></item>
+  <separator/>
+    <item label="Refresh cache" icon="/home/user/.cache/obmenu-generator/icons/26c5f86df77128698bb494a03034eb8f.png"><action name="Execute"><command><![CDATA[obmenu-generator -d]]></command></action></item>
+  </menu>
+  <menu id="0.682702099895696" icon="/home/user/.cache/obmenu-generator/icons/cbd33e85d4e0834359519a4e282b2aeb.png" label="Openbox">
+    <item label="Openbox Autostart" icon="/home/user/.cache/obmenu-generator/icons/d4cdf1ba54e8698ade04be0a1ba517c5.png"><action name="Execute"><command><![CDATA[geany ~/.config/openbox/autostart]]></command></action></item>
+    <item label="Openbox RC" icon="/home/user/.cache/obmenu-generator/icons/d4cdf1ba54e8698ade04be0a1ba517c5.png"><action name="Execute"><command><![CDATA[geany ~/.config/openbox/rc.xml]]></command></action></item>
+    <item label="Openbox Menu" icon="/home/user/.cache/obmenu-generator/icons/d4cdf1ba54e8698ade04be0a1ba517c5.png"><action name="Execute"><command><![CDATA[geany ~/.config/openbox/menu.xml]]></command></action></item>
+    <item label="Reconfigure Openbox" icon="/home/user/.cache/obmenu-generator/icons/cbd33e85d4e0834359519a4e282b2aeb.png"><action name="Execute"><command><![CDATA[openbox --reconfigure]]></command></action></item>
+  </menu>
+  </menu>
+  <separator/>
+    <item label="Lock" icon="/home/user/.cache/obmenu-generator/icons/37bd901d109e8033ac024c7ce46468f8.png"><action name="Execute"><command><![CDATA[xscreensaver-command -lock]]></command></action></item>
+    <item label="Exit" icon="/home/user/.cache/obmenu-generator/icons/5e9b9b07a981a3783fe3ea9e005334d9.png"><action name="Exit"/></item>
+  </menu>
+</openbox_menu>
